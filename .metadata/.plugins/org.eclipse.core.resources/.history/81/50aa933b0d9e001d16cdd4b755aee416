@@ -1,0 +1,115 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 900px;
+    text-align: center;
+}
+
+#product{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 1%;
+    display: flex;
+    
+}
+#products{
+	width: auto;
+    margin: 0 auto;
+    margin-top: 1%;
+    display: flex;
+}
+
+img{
+    max-width: 30%;
+    max-height: 30%;
+    width: 30%;
+    border: 1px solid #333;
+    
+}
+
+#description{
+    width: 100%;
+    border: 1px solid #333;
+    border-left: none;
+    
+}
+
+#description p{
+    text-align: left;
+    margin-left: 5px;
+    width: auto;
+    height: 10%;
+    
+}
+
+#rank{
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+#rank p{
+    border: 1px solid #333;
+    
+}
+
+#ir{
+    /*input required*/
+    margin: 0 0 0 12%;
+    text-align: left;
+}
+
+/*個人情報*/
+dt{
+    width: 25%;
+    margin: 0 0 0 12%;
+    text-align: left;
+}
+
+dd{
+    margin: 0;
+}
+
+input{
+    padding: 0;
+    width: 75%;
+}
+
+
+select{ 
+    /*支払い方法*/
+    width: 75.5%;
+}
+
+.p-postal-code{
+    width: 36%;
+}
+#hyphen{
+    margin: 0 0.25%;
+    
+    display: inline-block;
+}
+
+#check_url{
+    margin: 5%;
+    margin-left: 12%;
+    width: 15%;
+    border: 1px solid #333;
+    padding: 10px 30px;
+    
+    background-color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    float: left;
+}
+
+#cart_url{
+    margin: 5% 0;
+    margin-left: 29%;
+    width: 15%;
+    border: 1px solid #333;
+    padding: 10px 30px;
+    
+    background-color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}

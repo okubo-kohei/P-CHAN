@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<temp-directories>
+  <temp-directory age="0" key="Tomcat9_Java11" path="tmp1" recycle="false"/>
+  <temp-directory age="0" key="Tomcat8_Java8" path="tmp2" recycle="false"/>
+  <temp-directory age="0" key="Tomcat6_Java6" path="tmp3" recycle="false"/>
+  <temp-directory age="0" key="Tomcat9_Java17" path="tmp0" recycle="false"/>
+  <temp-directory age="0" key="Tomcat7_Java7" path="tmp4" recycle="false"/>
+</temp-directories>

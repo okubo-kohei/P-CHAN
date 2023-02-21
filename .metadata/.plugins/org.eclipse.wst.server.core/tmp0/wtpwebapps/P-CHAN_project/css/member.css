@@ -1,0 +1,330 @@
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  width: 100%;
+}
+
+/* 背景用*/
+body {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  margin:100px 20px 0 0;
+}
+
+
+
+button.btn-index {
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+
+  -webkit-transform-style: preserve-3d;
+
+  transform-style: preserve-3d;
+
+  float: right;
+}
+
+button.btn-index:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 15px;
+  height: 100%;
+
+  content: '';
+  -webkit-transition: all .10s;
+  transition: all .5s;
+  -webkit-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
+
+  border-radius: 0 50% 50% 0;
+  background: #000;
+}
+
+button.btn-index:hover:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: bold;
+  line-height: 30px;
+
+  width: 30px;
+  height: 30px;
+
+  content: '☜';
+  -webkit-transform: translateX(500%) translateY(.5rem);
+  transform: translateX(335%) translateY(.5rem);
+
+  color: #fff;
+  border-radius: 50%;
+}
+
+button.btn-buy_check {
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+
+  -webkit-transform-style: preserve-3d;
+
+  transform-style: preserve-3d;
+
+  float: right;
+}
+
+button.btn-buy_check:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 15px;
+  height: 100%;
+
+  content: '';
+  -webkit-transition: all .10s;
+  transition: all .5s;
+  -webkit-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
+
+  border-radius: 0 50% 50% 0;
+  background: #000;
+}
+
+button.btn-buy_check:hover:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: bold;
+  line-height: 30px;
+
+  width: 30px;
+  height: 30px;
+
+  content: '🗳';
+  -webkit-transform: translateX(500%) translateY(.5rem);
+  transform: translateX(450%) translateY(.5rem);
+
+  color: #fff;
+  border-radius: 50%;
+}
+
+button.btn-member_change {
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+
+  -webkit-transform-style: preserve-3d;
+
+  transform-style: preserve-3d;
+  float: right;
+}
+
+button.btn-member_change:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 15px;
+  height: 100%;
+
+  content: '';
+  -webkit-transition: all .10s;
+  transition: all .5s;
+  -webkit-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
+
+  border-radius: 0 50% 50% 0;
+  background: #000;
+}
+
+button.btn-member_change:hover:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: bold;
+  line-height: 30px;
+
+  width: 30px;
+  height: 30px;
+
+  content: '🛠';
+  -webkit-transform: translateX(500%) translateY(.5rem);
+  transform: translateX(570%) translateY(.5rem);
+
+  color: #fff;
+  border-radius: 50%;
+}
+
+button.btn-passwd_change {
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+
+  -webkit-transform-style: preserve-3d;
+
+  transform-style: preserve-3d;
+
+  float: right;
+
+}
+
+button.btn-passwd_change:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 15px;
+  height: 100%;
+
+  content: '';
+  -webkit-transition: all .10s;
+  transition: all .5s;
+  -webkit-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
+
+  border-radius: 0 50% 50% 0;
+  background: #000;
+}
+
+button.btn-passwd_change:hover:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: bold;
+  line-height: 30px;
+
+  width: 30px;
+  height: 30px;
+
+  content: '🗝';
+  -webkit-transform: translateX(500%) translateY(.5rem);
+  transform: translateX(630%) translateY(.5rem);
+
+  color: #fff;
+  border-radius: 50%;
+}
+
+button.btn-member_del {
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+
+  -webkit-transform-style: preserve-3d;
+
+  transform-style: preserve-3d;
+  float: right;
+}
+
+button.btn-member_del:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 15px;
+  height: 100%;
+
+  content: '';
+  -webkit-transition: all .10s;
+  transition: all .5s;
+  -webkit-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
+
+  border-radius: 0 50% 50% 0;
+  background: #000;
+}
+
+button.btn-member_del:hover:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: bold;
+  line-height: 30px;
+
+  width: 30px;
+  height: 30px;
+
+  content: '🗑';
+  -webkit-transform: translateX(500%) translateY(.5rem);
+  transform: translateX(570%) translateY(.5rem);
+
+  color: #fff;
+  border-radius: 50%;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+}
+
+#infr{
+  font-size: 20px;
+  float: right;
+  margin:75px 80px 0 0;
+}
+
+#infl{
+  font-size: 20px;
+  float: left;
+  margin:120px 0 0 80px;
+
+
+  position: relative;
+  padding: 0.5em 1.5em;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+
+#infl:before, #infl:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: -webkit-calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: black;
+}
+#infl:before {left: 10px;}
+#infl:after {right: 10px;}
+#infl p {
+  margin: 0; 
+  padding: 0;
+}
+#member{
+  width: 980px;
+  clear: both;
+  overflow: hidden;
+}
+
+#member ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+#member li.current button{
+  background-color: #000000;
+}

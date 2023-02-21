@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名 &apos;P-CHAN_project/WebContent/WEB-INF/jsp/history.html&apos; を &apos;history.jsp&apos; に変更します" description="リソース &apos;history.html&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/jsp/history.html" name="history.jsp" stamp="1669014045876" updateReferences="true"/>
+</session>

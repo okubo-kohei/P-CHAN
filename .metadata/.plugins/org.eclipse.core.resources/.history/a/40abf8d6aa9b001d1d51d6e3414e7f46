@@ -1,0 +1,18 @@
+window.onload = function() {
+	const tdProducts = document.getElementById('product');
+	for (let i = 0; i < tdProducts.length; i++) {
+		tdProduct.addEventListener("click", function() {
+			var productId = this.id;
+			var input = document.createElement("input");
+			input.type = "hidden"
+			input.name = "productId";
+			input.value = productId;
+			var form = document.createElement("form");
+			form.method = "get";
+			form.action = "FromIndexServlet";
+			form.appendChild(input);
+			document.body.appendChild(form);
+			form.submit();
+		});
+	}
+};

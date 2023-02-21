@@ -1,0 +1,12 @@
+2.5                       A
+3.5			  B
+AMD cpu                   C
+AMD マザボ                D
+intel cpu                 E
+intel マザボ              F
+ssd                       G
+グラフィックカード        H
+ケース                    I
+メモリ                    J
+電源                      K
+冷却装置                  L

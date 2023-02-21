@@ -1,0 +1,77 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 900px;
+}
+h1,dl,p{
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    margin-top: 2%;
+}
+
+dt{
+    width: 25%;
+    margin: 0 0 0 12%;
+    text-align: left;
+}
+
+dd{
+    margin: 0;
+}
+
+input{
+    padding: 0;
+    width: 75%;
+}
+.p-postal-code{
+    width: 35%;
+}
+#hyphen{
+    margin: 0 1%;
+    display: inline-block;
+}
+
+input[type="submit"]{
+    margin: 5% 0;
+    margin-left: 12%;
+    margin-right: 4%;
+    width: 30%;
+    border: 1px solid #333;
+    padding: 10px 30px;
+    text-align: center;
+    
+    background-color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    float: left;
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(70, 68, 68, 0.867);
+    border: 2px solid rgba(70, 68, 68, 0.867);
+    color: #fff;
+}
+
+input[type="button"]{
+    margin: 5% 0;
+    margin-left: 12%;
+    margin-right: 4%;
+    width: 30%;
+    border: 1px solid #333;
+    padding: 10px 30px;
+    text-align: center;
+    
+    background-color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    float: left;
+}
+
+input[type="button"]:hover{
+    background-color: rgba(70, 68, 68, 0.867);
+    border: 2px solid rgba(70, 68, 68, 0.867);
+    color: #fff;
+}

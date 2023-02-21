@@ -1,0 +1,260 @@
+HTML CSS Result Skip Results Iframe
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* 背景用*/
+
+.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+
+
+button.btn-buy {
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+
+  -webkit-transform-style: preserve-3d;
+
+  transform-style: preserve-3d;
+
+}
+
+button.btn-buy:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 15px;
+  height: 100%;
+
+  content: '';
+  -webkit-transition: all .10s;
+  transition: all .5s;
+  -webkit-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
+
+  border-radius: 0 50% 50% 0;
+  background: #000;
+}
+
+button.btn-buy:hover:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: bold;
+  line-height: 30px;
+
+  width: 30px;
+  height: 30px;
+
+  content: '🗳';
+  -webkit-transform: translateX(500%) translateY(.5rem);
+  transform: translateX(500%) translateY(.5rem);
+
+  color: #fff;
+  border-radius: 50%;
+}
+
+
+
+
+button.btn-index {
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+
+  -webkit-transform-style: preserve-3d;
+
+  transform-style: preserve-3d;
+
+}
+
+button.btn-index:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 15px;
+  height: 100%;
+
+  content: '';
+  -webkit-transition: all .10s;
+  transition: all .5s;
+  -webkit-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
+
+  border-radius: 0 50% 50% 0;
+  background: #000;
+}
+
+button.btn-index:hover:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: bold;
+  line-height: 30px;
+
+  width: 30px;
+  height: 30px;
+
+  content: '☜';
+  -webkit-transform: translateX(500%) translateY(.5rem);
+  transform: translateX(500%) translateY(.5rem);
+
+  color: #fff;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+#main{
+  float: left;
+  margin: 20px 0 0 12.5%;
+}
+
+
+#sidebar{
+  float: right;
+  margin: 20px 12.5% 0 0;
+  width: 40%;
+}
+
+
+h1{
+  font-size: x-large;
+}
+
+
+
+.product_name {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.4em;
+  padding: 5px;
+  background:#000;
+  color: #fff;
+}
+
+
+
+.salespoint{
+  width: 90%;
+  margin:2em 0;
+  position: relative;
+  padding: 0.5em 3em;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+.salespoint:before, .salespoint:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: -webkit-calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: black;
+}
+.salespoint:before {left: 10px;}
+.salespoint:after {right: 10px;}
+.salespoint p {
+  margin: 0; 
+  padding: 0;
+  font-size: larger;
+}
+
+img.image {
+  width: 260px;
+  height: 260px;
+  margin: 0 0 0 15%;
+  }
+
+
+
+
+
+  button.btn-cart {
+    border: 2px solid #000;
+    border-radius: 0;
+    background: #fff;
+  
+    -webkit-transform-style: preserve-3d;
+  
+    transform-style: preserve-3d;
+
+  }
+  
+  button.btn-cart:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    width: 15px;
+    height: 100%;
+  
+    content: '';
+    -webkit-transition: all .10s;
+    transition: all .5s;
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+  
+    border-radius: 0 50% 50% 0;
+    background: #000;
+  }
+  
+  button.btn-cart:hover:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    line-height: 30px;
+  
+    width: 30px;
+    height: 30px;
+  
+    content: '🛒';
+    -webkit-transform: translateX(500%) translateY(.5rem);
+    transform: translateX(630%) translateY(.5rem);
+  
+    color: #fff;
+    border-radius: 50%;
+  }
+
+
+
+button{
+  margin: 5px;
+}

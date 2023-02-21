@@ -1,0 +1,126 @@
+HTML CSS Result Skip Results Iframe
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+
+*,*:before,*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  
+    margin: 0 80px;
+    padding: 30px;
+  }
+
+.btn,button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+button.btn-member {
+    border: 2px solid #000;
+    border-radius: 0;
+    background: #fff;
+  
+    -webkit-transform-style: preserve-3d;
+  
+    transform-style: preserve-3d;
+  
+  }
+  
+  button.btn-member:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    width: 15px;
+    height: 100%;
+  
+    content: '';
+    -webkit-transition: all .10s;
+    transition: all .5s;
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+  
+    border-radius: 0 50% 50% 0;
+    background: #000;
+  }
+  
+  button.btn-member:hover:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    line-height: 30px;
+  
+    width: 30px;
+    height: 30px;
+  
+    content: '☜';
+    -webkit-transform: translateX(500%) translateY(.5rem);
+    transform: translateX(630%) translateY(.5rem);
+  
+    color: #fff;
+    border-radius: 50%;
+  }
+
+
+  
+
+img{
+	width: 130px;
+	height: 125px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+  #member,h1{
+    text-align: center;
+}
+
+h1{
+    font-size:x-large;
+}
+
+
+p{
+    font-size:large
+}
+
+table{
+  width:600px;
+  text-align:center;  
+  margin:30px auto;
+  border-collapse:  collapse;
+}
+
+th,td {
+  border: solid 3px;
+}
+
+button{
+  background-color: #fff;
+}
+

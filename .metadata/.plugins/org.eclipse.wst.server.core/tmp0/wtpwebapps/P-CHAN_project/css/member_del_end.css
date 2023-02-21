@@ -1,0 +1,29 @@
+body{
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    margin: 5% auto 10%;
+}
+a{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0px auto;
+    border: 2px solid rgba(70, 68, 68, 0.867);
+    padding: 10px 0px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+}
+a:hover{
+    background-color: rgba(70, 68, 68, 0.867);
+    border: 2px solid rgba(70, 68, 68, 0.867);
+    color: #fff;
+  }

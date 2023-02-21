@@ -1,0 +1,7 @@
+IntelCorei712700BOX,47,880円
+
+IntelCorei912900BOX,69,000円
+
+IntelCorei912900KSBOX,103,811円
+
+IntelXeonGold6336Y,308,000円

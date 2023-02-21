@@ -1,0 +1,54 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 900px;
+    text-align: center;
+}
+
+#ir{
+    /*input required*/
+    margin: 0 0 0 12%;
+    width: auto;
+    text-align: left;
+}
+
+/*個人情報*/
+dt{
+    width: 25%;
+    margin: 0 0 0 12%;
+    text-align: left;
+}
+
+dd{
+    margin: 0;
+}
+
+input{
+    padding: 0;
+    width: 75%;
+}
+
+#cng_url{
+    margin: 5% 0;
+    margin-left: 12%;
+    width: 45%;
+    border: 1px solid #333;
+    padding: 10px 30px;
+    
+    background-color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    float: left;
+}
+
+#mem_url{
+    margin: 5% 0;
+    margin-right: 7%;
+    width: 25%;
+    border: 1px solid #333;
+    padding: 10px 30px;
+    
+    background-color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}

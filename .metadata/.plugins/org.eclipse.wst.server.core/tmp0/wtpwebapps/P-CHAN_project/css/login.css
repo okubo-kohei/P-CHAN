@@ -1,0 +1,93 @@
+body{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  background-color: #fff;
+}
+
+.main {
+  width: 400px;
+  padding: 40px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(70, 68, 68, 0.867);
+  text-align: center;
+}
+
+.login_form_top h1,.login_form_top p {
+  color: white;
+  font-weight: 500;
+}
+
+.login_form_btm p {
+  font-size: 10px;
+}
+.login_form_btm ::placeholder{
+  color: #fff;
+}
+.login_form_btm input[id = "memberId"],.login_form_btm input[id = "password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #fff;
+  padding: 15px 10px;
+  width: 200px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+  text-align: center;
+}
+
+.login_form_btm input[id = "memberId"]:focus,.login_form_btm input[id = "password"]:focus {
+  width: 280px;
+  background-color: #f0f8ff;
+}
+.login_form_btm input[id = "memberId"]:focus::placeholder,.login_form_btm input[id = "password"]:focus::placeholder {
+  color: #808080;
+}
+.login_form_btm input[type = "text"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #f0f8ff;
+  padding: 15px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  transition: 0.25s;
+  text-align: center;
+  cursor: pointer;
+}
+
+.login_form_btm input[type = "text"]:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #808080;
+}
+.main a,input[type= "submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 0px auto;
+  border: 2px solid #fff;
+  padding: 10px 0px;
+  width: 200px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom:5px;
+}
+.main a:hover,input[type= "submit"]:hover{
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: rgba(70, 68, 68, 0.867);;
+}

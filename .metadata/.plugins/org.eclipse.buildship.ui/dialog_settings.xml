@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.creation">
+		<item key="java_home" value="C:\work\pleiades\java\11"/>
+		<item key="project_location" value="C:\work\java3\P-CHAN_project"/>
+		<item key="use_default_location" value="true"/>
+		<list key="arguments">
+			<item value="wrapper"/>
+			<item value="--gradle-version=7.3.2"/>
+			<item value="--init-script=../.metadata/init.gradle"/>
+		</list>
+	</section>
+</section>

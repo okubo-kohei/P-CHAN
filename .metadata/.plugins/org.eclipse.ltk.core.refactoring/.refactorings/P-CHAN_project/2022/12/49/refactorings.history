@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名 &apos;P-CHAN_project/WebContent/WEB-INF/jsp/buy_error.html&apos; を &apos;buy_error.jsp&apos; に変更します" description="リソース &apos;buy_error.html&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/jsp/buy_error.html" name="buy_error.jsp" stamp="1669950992540" updateReferences="true"/>
+</session>

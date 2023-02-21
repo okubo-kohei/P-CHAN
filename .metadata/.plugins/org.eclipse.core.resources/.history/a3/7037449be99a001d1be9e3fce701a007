@@ -1,0 +1,42 @@
+package model;
+
+import dao.MemberDao;
+import dto.MemberDto;
+
+public class SignUpLogic {
+	public boolean signUp(MemberDto member) {
+		MemberDao mDao = new MemberDao();
+		
+		String memberId = generateMemberId();
+		member.setMemberId(memberId);
+		int result = mDao.signUp(member);
+		if(result >= 1) {
+			return true;
+		}
+		return false;
+	}
+	
+	public String generateMemberId() {
+		MemberDao mDao = new MemberDao();
+		String lastId = mDao.memberIdGen();
+		String memberId = "";
+		
+		String strNum = lastId.substring(lastId.length() - 4);
+		int num = Integer.parseInt(strNum);
+		num++;
+		
+		if(num > 9999) {
+			return null;
+		}
+		
+		strNum = Integer.toString(num);
+		int valLen = String.valueOf( strNum ).length();
+		if(valLen == 1) {
+			
+		}
+		memberId = "P" + strNum;
+		
+		return memberId;
+	}
+
+}

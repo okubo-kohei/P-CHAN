@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="dto.MenberDto"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.protocol.a.authentication.Sha256PasswordPlugin"/>
+    <fullyQualifiedTypeName name="model.Crypto"/>
+    <fullyQualifiedTypeName name="dao.MemberDao"/>
+    <fullyQualifiedTypeName name="java.security.Timestamp"/>
+    <fullyQualifiedTypeName name="java.sql.Timestamp"/>
+    <fullyQualifiedTypeName name="dto.BuyProductDto"/>
+</qualifiedTypeNameHistroy>
